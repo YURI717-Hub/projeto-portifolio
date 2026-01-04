@@ -103,3 +103,17 @@ section#ficha img.foto{
     div#social a:hover{
     color: var(--destaque-inverso);
   }
+  
+  section#detalhes {
+    grid-column: 2;
+  }
+  article{
+    background-color: var(--fundo-card);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  article h2{
+    color: var(--destaque);
+    margin-bottom: 10px;
+  }
