@@ -214,6 +214,10 @@ cursor: pointer;
     overflow: hidden;
     border-radius: 8px;
   }
+  #projeto-container .redireciona{
+    text-decoration: none;
+    color: var(--texto);
+  }
   footer{
     background-color: var(--destaque);
     color:var(--texto-inverso) ;
