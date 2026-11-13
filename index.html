@@ -1,295 +1,249 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
-    <script src="https://kit.fontawesome.com/ee88404083.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Yuri Mantovani, desenvolvedor web júnior. Conheça seus projetos, habilidades e formação em tecnologia.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Yuri Mantovani | Desenvolvedor Web</title>
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/portfolio.css">
+  <script src="https://kit.fontawesome.com/ee88404083.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="#ficha" class="link"><i class="fa-solid fa-house-chimney-user"></i></a></li>
-                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#formacao" class="link"><i class="fa-solid fa-user-graduate"></i></a></li>
-                <li><a href="#projeto" class="link"><i class="fa-solid fa-code"></i></a></li>
-                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
-            </ul>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-        </nav>
-    </header>
-    <main>
-        <section id="ficha">
-            <img src="imagens/foto-perfil.png" alt="gustavo Guanabara" class="foto">
-            <h1>Yuri Mantovani</h1>
-            <p>
-                Recém-formado no curso Técnico em Informática para Internet
-                pela ETEC Sebrae, com foco em desenvolvimento web e
-                fundamentos de tecnologia da informação. Possui conhecimentos
-                em criação de sites, lógica de programação e uso de ferramentas
-                digitais. Motivado a aprender na prática, busca sua primeira oportunidade
-                profissional para desenvolver habilidades, adquirir experiência e contribuir
-                com dedicação em novos projetos e desafios.
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="Yuri Mantovani, início">YM<span>.</span></a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#formacao">Formação</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <button class="theme-toggle" id="botao-tema" type="button" aria-label="Alternar tema" title="Alternar tema">
+        <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </header>
 
-            </p>
-            <div id="social">
-                <a href="mailto:yuri0909mantovani@gmail.com" target="_blank" rel="nofollow"><i
-                        class="fa-solid fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/yuri-mantovani-487636262/" target="_blank" rel="nofollow"><i
-                        class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/YURI717-Hub" target="_blank" rel="nofollow"><i
-                        class="fa-brands fa-github"></i></a>
-                <a href="https://wa.me/5511963071424" target="_blank" rel="nofollow"><i
-                        class="fa-brands fa-square-whatsapp"></i></a>
-            </div>
-        </section>
-        <section id="detalhes">
-            <!-- <article id="TCC"></article> -->
-       <article id="skills">
-
-    <h2><i class="fa-solid fa-brain"></i> Minhas skills</h2>
-
-    <div id="skill-container">
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-brands fa-html5"></i> HTML5
-                </span>
-                <span class="porce">85%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 85%;"></div>
-            </div>
+  <main id="conteudo">
+    <section class="hero section container" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Disponível para oportunidades</p>
+        <p class="hero-greeting">Olá, eu sou</p>
+        <h1>Yuri <span>Mantovani.</span></h1>
+        <h2>Desenvolvedor Web Júnior</h2>
+        <p class="hero-description">
+          Sou formado em Técnico em Informática para Internet pela ETEC Sebrae.
+          Gosto de transformar ideias em soluções digitais e estou em busca da
+          minha primeira oportunidade profissional para continuar aprendendo e
+          contribuir com projetos reais.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Conheça meus projetos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="button button-outline" href="#contato">Entre em contato</a>
         </div>
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-brands fa-css3-alt"></i> CSS3
-                </span>
-                <span class="porce">80%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 80%;"></div>
-            </div>
+        <div class="social-links" aria-label="Redes sociais">
+          <a href="https://github.com/YURI717-Hub" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/yuri-mantovani-487636262/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:yuri0909mantovani@gmail.com" aria-label="Enviar e-mail"><i class="fa-solid fa-envelope"></i></a>
         </div>
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-brands fa-js"></i> JavaScript
-                </span>
-                <span class="porce">65%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 65%;"></div>
-            </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="imagens/Retrato neutro em camisa polo preta.png" alt="Foto de perfil de Yuri Mantovani" class="profile-photo">
         </div>
+        <div class="floating-card"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Aprendendo e construindo</span></div>
+        <div class="decor decor-one"></div>
+        <div class="decor decor-two"></div>
+      </div>
+    </section>
 
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-solid fa-code"></i> Lógica de Programação
-                </span>
-                <span class="porce">75%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 75%;"></div>
-            </div>
+    <section class="section container" id="sobre">
+      <div class="section-heading">
+        <p class="eyebrow">Um pouco sobre mim</p>
+        <h2>Construindo minha trajetória <span>na tecnologia.</span></h2>
+      </div>
+      <div class="about-panel">
+        <p>
+          Minha formação técnica me proporcionou uma base em desenvolvimento web,
+          lógica de programação e tecnologia da informação. Durante os estudos,
+          participei de projetos acadêmicos que me ajudaram a praticar a criação
+          de interfaces, organização de código e desenvolvimento de funcionalidades.
+        </p>
+        <p>
+          Tenho interesse em desenvolvimento web, bancos de dados e em aprender
+          novas ferramentas. Também concluí um curso de manutenção de celulares
+          para iniciantes, ampliando meu contato com a área de tecnologia.
+          Busco uma oportunidade de estágio ou primeiro emprego para evoluir
+          profissionalmente e colaborar com uma equipe.
+        </p>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades">
+      <div class="section-heading">
+        <p class="eyebrow">O que utilizo</p>
+        <h2>Habilidades e <span>tecnologias.</span></h2>
+        <p class="section-intro">Conhecimentos que venho desenvolvendo na formação técnica e em projetos práticos.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i></div>
+          <h3>Desenvolvimento web</h3>
+          <p>HTML5, CSS3, JavaScript e criação de páginas responsivas.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-database" aria-hidden="true"></i></div>
+          <h3>Banco de dados</h3>
+          <p>Fundamentos de banco de dados, MySQL e contato com Firebase.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon"><i class="fa-brands fa-git-alt" aria-hidden="true"></i></div>
+          <h3>Ferramentas</h3>
+          <p>Git, GitHub e Visual Studio Code para desenvolvimento e versionamento.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></div>
+          <h3>Informática</h3>
+          <p>Conhecimentos de informática e noções de manutenção de celulares.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i></div>
+          <h3>Lógica e resolução</h3>
+          <p>Raciocínio lógico, análise de problemas e busca por soluções.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-people-group" aria-hidden="true"></i></div>
+          <h3>Habilidades pessoais</h3>
+          <p>Trabalho em equipe, organização, comunicação e disposição para aprender.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="formacao">
+      <div class="section-heading">
+        <p class="eyebrow">Minha jornada</p>
+        <h2>Formação e <span>aprendizado.</span></h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">2024 — 2025</span>
+          <div>
+            <h3>Técnico em Informática para Internet</h3>
+            <p class="timeline-place">ETEC Sebrae</p>
+            <p>Formação técnica com foco em desenvolvimento web e fundamentos de tecnologia da informação.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-date">Curso complementar</span>
+          <div>
+            <h3>Manutenção de celulares para iniciantes</h3>
+            <p>Curso introdutório voltado aos fundamentos de manutenção de dispositivos móveis.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <div class="section-heading">
+        <p class="eyebrow">Trabalhos selecionados</p>
+        <h2>Projetos que <span>desenvolvi.</span></h2>
+        <p class="section-intro">Projetos acadêmicos e pessoais nos quais aplico meus conhecimentos e continuo praticando.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <a class="project-image" href="https://autopecasexpress.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Abrir demonstração do AutoPeças Express">
+            <img src="imagens/projeto-Auto-Pecas-Express.png" alt="Captura de tela do projeto AutoPeças Express" loading="lazy">
+            <span class="project-image-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </a>
+          <div class="project-content">
+            <div class="project-meta"><span>2025</span><span class="project-status">Em desenvolvimento</span></div>
+            <h3>AutoPeças Express</h3>
+            <p>Projeto de TCC da ETEC Sebrae: plataforma para busca e comercialização de peças e acessórios automotivos, com foco especial em componentes para veículos elétricos. Inclui desenvolvimento web, gerenciamento de produtos e sistema de usuários.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Firebase</span></div>
+            <a class="project-link" href="https://autopecasexpress.vercel.app/" target="_blank" rel="noopener noreferrer">Ver demonstração <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a class="project-image" href="https://projeto-agencia-de-emprego.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Abrir demonstração do Futuro Trabalho">
+            <img src="imagens/projeto-futuro-trabalho.png" alt="Captura de tela do projeto Futuro Trabalho" loading="lazy">
+            <span class="project-image-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+          </a>
+          <div class="project-content">
+            <div class="project-meta"><span>2025</span><span class="project-status">Em desenvolvimento</span></div>
+            <h3>Futuro Trabalho</h3>
+            <p>Projeto desenvolvido na disciplina de Sistemas Web II para ajudar jovens e estudantes a encontrar oportunidades de primeiro emprego e estágio, aproximando candidatos de oportunidades compatíveis com seus objetivos.</p>
+            <div class="tag-list"><span>Desenvolvimento web</span><span>Projeto acadêmico</span></div>
+            <a class="project-link" href="https://projeto-agencia-de-emprego.vercel.app" target="_blank" rel="noopener noreferrer">Ver demonstração <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image project-image-placeholder">
+            <img src="imagens/images.jfif" alt="Imagem ilustrativa do conceito FlowMind" loading="lazy">
+            <span class="concept-label">Conceito</span>
+          </div>
+          <div class="project-content">
+            <div class="project-meta"><span>Em planejamento</span><span class="project-status status-concept">Ideia em concepção</span></div>
+            <h3>FlowMind</h3>
+            <p>Conceito de uma plataforma de gerenciamento de tarefas que utiliza inteligência artificial como proposta para apoiar a distribuição de atividades conforme as habilidades da equipe, buscando melhorar o fluxo de trabalho e o cumprimento de prazos.</p>
+            <div class="tag-list"><span>Planejamento</span><span>Inteligência artificial</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-content">
+        <p class="eyebrow">Vamos conversar?</p>
+        <h2>Estou pronto para o <span>próximo desafio.</span></h2>
+        <p>Procuro oportunidades de estágio ou primeiro emprego em tecnologia. Se você deseja conversar sobre uma oportunidade ou projeto, entre em contato.</p>
+        <a class="button button-primary" href="mailto:yuri0909mantovani@gmail.com">Fale comigo <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></a>
+        <div class="contact-socials">
+          <a href="mailto:yuri0909mantovani@gmail.com"><i class="fa-solid fa-envelope"></i> E-mail</a>
+          <a href="https://www.linkedin.com/in/yuri-mantovani-487636262/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/YURI717-Hub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="https://wa.me/5511963071424" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-solid fa-database"></i> Banco de Dados
-                </span>
-                <span class="porce">35%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 35%;"></div>
-            </div>
-        </div>
+  <footer class="site-footer">
+    <p>Desenvolvido por <strong>Yuri Mantovani</strong> · <span id="ano-atual">2026</span></p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
 
-     
+  <script>
+    // Alternância de tema independente do script anterior.
+    const themeButton = document.getElementById('botao-tema');
+    const savedTheme = localStorage.getItem('portfolio-theme');
+    if (savedTheme) document.documentElement.dataset.theme = savedTheme;
 
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-brands fa-git-alt"></i> Git e GitHub
-                </span>
-                <span class="porce">70%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 70%;"></div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-solid fa-mobile-screen"></i> Design Responsivo
-                </span>
-                <span class="porce">75%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 75%;"></div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-solid fa-laptop"></i> Informática
-                </span>
-                <span class="porce">85%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 85%;"></div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-solid fa-users"></i> Trabalho em Equipe
-                </span>
-                <span class="porce">85%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 85%;"></div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-solid fa-comments"></i> Comunicação
-                </span>
-                <span class="porce">75%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 75%;"></div>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="info">
-                <span class="nome">
-                    <i class="fa-solid fa-lightbulb"></i> Resolução de Problemas
-                </span>
-                <span class="porce">80%</span>
-            </div>
-            <div class="barra">
-                <div class="progresso" style="width: 80%;"></div>
-            </div>
-        </div>
-
-    </div>
-
-</article>
-<!-- Fim skills -->
-
-            <article id="formacao">
-                <h2><i class="fa-solid fa-user-graduate"></i> Formação</h2>
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">2024 - 2025</p>
-                        <h3 class="instituicao">ETEC Sebrae</h3>
-                        <p class="titulacao">Técnico em Informática para Internet</p>
-                    </div>
-                </div>
-
-            </article> <!--Fim formação-->
-
-            <article id="projeto">
-                <h2><i class="fa-solid fa-code"></i> Projetos</h2>
-
-                <div id="projeto-container">
-                    <a class="redireciona" href="https://autopecasexpress.vercel.app/">
-                        <div class="projeto">
-                            <img src="imagens/projeto-Auto-Pecas-Express.png" alt="" class="foto">
-                            <div class="projeto-info">
-                                <p class="periodo">2025</p>
-                                <h3 class="titulo">Auto Peças Express
-                                </h3>
-                                <h4 class="status-projeto">Em Desenvolvimento</h4>
-
-                                <details class="descricao">
-                                    <summary>
-                                        Saiba mais...
-                                    </summary>
-                                    <p> AutoPeças Express é um projeto desenvolvido como meu TCC no curso Técnico em
-                                        Informática para Internet da ETEC Sebrae. A proposta é criar uma plataforma
-                                        voltada à busca e comercialização de peças e acessórios automotivos, com foco
-                                        especial em componentes para veículos elétricos.
-                                        O projeto envolve desenvolvimento web, cadastro e gerenciamento de produtos,
-                                        sistema
-                                        de usuários e integração com banco de dados. Atualmente, continuo trabalhando no
-                                        aprimoramento do AutoPeças Express,
-                                        adicionando novas funcionalidades, melhorias visuais e aperfeiçoando sua
-                                        estrutura e
-                                        experiência de uso.</p>
-                                </details>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="redireciona" href="https://projeto-agencia-de-emprego.vercel.app">
-                    <div class="projeto">
-                        <img src="imagens/projeto-futuro-trabalho.png" alt="" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2025</p>
-                            <h3 class="titulo">Futuro Trabalho</h3>
-                            <h4 class="status-projeto">Em Desenvolvimento</h4>
-                            <details class="descricao">
-                                <summary>
-                                    Saiba Mais...
-                                </summary>
-                                <p>Futuro Trabalho é um projeto desenvolvido durante a disciplina de Sistemas Web
-                                    II, com o objetivo de ajudar jovens e estudantes a encontrar oportunidades de
-                                    emprego, primeiro emprego e estágio.
-
-                                    A proposta é criar uma plataforma que facilite o acesso dos estudantes ao mercado de
-                                    trabalho, conectando candidatos a oportunidades compatíveis com seus perfis e
-                                    objetivos profissionais. O projeto ainda está em desenvolvimento e pretendo
-                                    continuar aprimorando suas funcionalidades, interface e experiência de uso.
-                                </p>
-                            </details>
-                        </div>
-                    </div>
-                        </a>
-                    <div class="projeto">
-                        <img src="imagens/images.jfif" alt="" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">2025</p>
-                            <h3 class="titulo">FlowMind</h3>
-                            <h4> Projeto em planejamento</h4>
-                            <details class="descricao">
-                                <summary>
-                                    Saiba Mais...
-                                </summary>
-                                <p>Projeto em fase de concepção: plataforma inteligente de gerenciamento de tarefas
-                                    que utiliza Inteligência Artificial para analisar as habilidades e características
-                                    de cada integrante da equipe, distribuindo as atividades de acordo com o perfil mais
-                                    adequado para cada tarefa. A proposta é otimizar o fluxo de trabalho, cumprir os
-                                    prazos e manter o projeto dentro do orçamento definido pelo cliente.
-                                </p>
-                            </details>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-    </main>
-    <footer>
-        Portifólio desenvolvido para teste
-    </footer>
-    <script src="scripts/script.js"></script>
+    function updateThemeIcon() {
+      const isLight = document.documentElement.dataset.theme === 'light';
+      themeButton.innerHTML = isLight
+        ? '<i class="fa-solid fa-moon" aria-hidden="true"></i>'
+        : '<i class="fa-solid fa-sun" aria-hidden="true"></i>';
+      themeButton.setAttribute('aria-label', isLight ? 'Ativar tema escuro' : 'Ativar tema claro');
+    }
+    updateThemeIcon();
+    themeButton.addEventListener('click', () => {
+      const nextTheme = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+      document.documentElement.dataset.theme = nextTheme;
+      localStorage.setItem('portfolio-theme', nextTheme);
+      updateThemeIcon();
+    });
+    document.getElementById('ano-atual').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
